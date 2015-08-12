@@ -1,4 +1,4 @@
-function Animal(name, age, kind, awake){
+function Animal(name, age, kind){
   this.name = name;
   this.age = age;
   this.kind = kind;
@@ -14,7 +14,7 @@ Animal.prototype.oink = function(){
 };
 
 Animal.prototype.growUp = function() {
-  return this.age + 1;
+  return this.age += 1;
 };
 
 Animal.prototype.feed = function() {
