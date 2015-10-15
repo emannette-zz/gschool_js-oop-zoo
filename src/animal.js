@@ -1,4 +1,4 @@
-function Animal(name, age, kind){
+function banana(name, age, kind){
   this.name = name;
   this.age = age;
   this.kind = kind;
